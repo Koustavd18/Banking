@@ -11,7 +11,7 @@ import (
 
 const (
 	dbDriver = "postgres"
-	dbSource = "postgres://postgres:test1234@localhost:5433/banking?sslmode=disable"
+	dbSource = "postgres://postgres:test1234@localhost:5432/banking?sslmode=disable"
 )
 
 var testQueries *Queries
